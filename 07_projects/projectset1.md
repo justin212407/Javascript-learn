@@ -7,6 +7,7 @@
 ## Project 1
 
 ```javascript
+
 const buttons = document.querySelectorAll('.button');
 console.log(buttons);
 const body = document.querySelector('body');
@@ -36,6 +37,7 @@ buttons.forEach(function (button) {
 ## Project 2 Solution
 
 ```javascript
+
 const form = document.querySelector('form');
 
 //const height = parseInt(document.querySelector('#height').value)
@@ -66,5 +68,25 @@ form.addEventListener('submit', function (e) {
     weightg.innerHTML = "Overweight"
   }
 });
+
+```
+## Project 3
+
+```javascript
+document.getElementById('clock')
+//document.querySelector('#clock')
+
+setInterval(function(){
+  let date = new Date()
+  //console.log(date.toLocaleTimeString());
+  clock.innerHTML = date.toLocaleTimeString();
+}, 1000);
+
+```
+## Project 4
+
+```javascript
+
+
 
 ```
