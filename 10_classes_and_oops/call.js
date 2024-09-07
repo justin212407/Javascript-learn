@@ -1,4 +1,4 @@
-function SetUsername(username){
+function setUsername(username){
     //complex DB calls
     this.username = username
     console.log("called");
@@ -11,5 +11,5 @@ function createUser(username, email, password){
     this.password = password
 }
 
-const chai = new creatUser("coffee", "coffee@fb.com", "12345")
+const chai = new createUser("coffee", "coffee@fb.com", "12345")
 console.log(coffee);
